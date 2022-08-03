@@ -250,7 +250,9 @@ function continueStatement(numero) {
   array=[];
   numerosumado=numero+2;
   for(i=1;i<10;i++){
-
+   /* if(i===5){
+      continue;
+    }*/ 
     array.push(numerosumado);
       numerosumado+=2;   
   }
