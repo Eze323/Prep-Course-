@@ -64,8 +64,8 @@ function filter(array) {
   //Tu código:
   let nuevoArray=[];
   for(i=0;i<array.length;i++){
-    if(array[i].charAt[0]==='a'){
-      nuevoArray.push.array[i];
+    if(array[i][0]==='a'){
+      nuevoArray.push(array[i]);
     }
   }
   return nuevoArray;
