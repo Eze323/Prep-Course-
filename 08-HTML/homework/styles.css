@@ -1,15 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
+
+    body {
+      font-family: 'Muli', sans-serif;
+      color: rgba(0, 0, 0, 0.8);
+      font-weight: 400;
+      line-height: 1.58;
+      letter-spacing: -.003em;
+      font-size: 20px;
+      padding: 70px;
+    }
+    h1{
+
+        font-family: 'Bangers', cursive;
+        
+        }
+    h3,h4 {
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 30px;
+      line-height: 1.15;
+      letter-spacing: -.02em;
+      color: rgba(0, 0, 0, 0.8);
+      -webkit-font-smoothing: antialiased;
+    }
+
+ 
+
+
+
+
+body{
+    background-image:url("https://github.com/Eze323/Prep-Course-/blob/main/08-HTML/homework/akali-kda.jpg?raw=true");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.contenedor{
+
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    display: flex;
+    flex-flow:  row wrap;
+    border:5px solid black;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    border-radius: 15px;
+}
+.divClass{
+    background-color: darksalmon;
+    opacity: 85%;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 20px;
+}
 ul li img {
     width:400px;
     border: 1px solid darkslategrey;
+    border-radius: 15px;
 }
 #thirdDiv{
-    height: 600px; 
-    width:500px ; 
-    background-color: lightsteelblue;
+    background-color: darksalmon;
+    min-height: 600px; 
+    min-width:500px ; 
+ 
     float: left; 
     padding: 50px;
     border-style: dotted;
     border-color: burlywood;
+    border-radius: 15px;
 }
 #spanId{
     font-size: 18px; 
