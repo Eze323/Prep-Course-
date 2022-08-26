@@ -183,6 +183,13 @@ body{
 .btn:active{
   box-shadow: -4px 4px 24px rgba(0,0,0,0.8);
 }
+.imagen-perfil{
+  width: 300px;
+  border-radius: 150px;
+  box-shadow: -4px 4px 24px rgba(0,0,0,0.8);
+  
+}
+
 #navegador{  
 }
 #titulo{}
